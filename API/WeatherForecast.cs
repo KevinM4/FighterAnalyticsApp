@@ -1,9 +1,9 @@
 using API.Controllers;
 using Microsoft.VisualBasic;
 
-namespace API;
+namespace API.Controllers;
 
-public class WeatherForecast
+public class WeatherForecast : BaseApiController
 {
     public DateOnly Date { get; set; }
 
